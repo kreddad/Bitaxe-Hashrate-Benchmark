@@ -46,6 +46,12 @@ min_input_voltage = 4800      # Minimum allowed input voltage
 max_input_voltage = 5500      # Maximum allowed input voltage
 max_power = 80               # Max of 40W because of DC plug
 
+# Reintroduce cooldown logic:   ADD 
+cool_down_voltage = 1166
+cool_down_frequency = 400
+cool_down_time = 300
+
+
 # Add these variables to the global configuration section
 small_core_count = None
 asic_count = None
